@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Elerhetőségek</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <!-- BOOTSTRAP 4 -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        
+        <!-- SCRIPT -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+        
+        <script src="main.js"></script>
+        
+        <style>
+            span{
+                display: inline-block;
+                width:300px;
+                overflow:auto;
+            }
+        </style>
+        
+    </head>
+    <body onload="betoltE()" style="margin: 10px 0 10px 25px">
+        <h3 style="margin: 10px">Elérhetőségek kezelése</h3>
+        
+        <div id="url10"></div>
+        <div id="icon10"></div>
+        
+        <div id="url11"></div>
+        <div id="icon11"></div>
+        
+        <div id="url12"></div>
+        <div id="icon12"></div> 
+        
+        <div id="url13"></div>
+        <div id="icon13"></div> 
+        
+        <a href="">Új elérhetőség hozzáadása</a><br>
+            <input type="text" placeholder="elérhetőség url">
+            <input type="text" placeholder="elérhetőség icon">
+            <button type="button">hozzáad</button>
+            <br>
+        <a href="">elérhetőség törlése</a><br>
+            <input type="text" placeholder="elérhetőség id">
+            <button type="button">töröl</button>
+            <br>
+        <a href="">elérhetőség módosítása</a><br>
+            <input type="text" placeholder="elérhetőség id">
+            <input type="text" placeholder="elérhetőség url">
+            <input type="text" placeholder="elérhetőség icon">
+            <button type="button">módosít</button>
+    </body>
+</html>

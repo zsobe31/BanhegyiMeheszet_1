@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Partnerek</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <!-- BOOTSTRAP 4 -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        
+        <!-- SCRIPT -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+        
+        <script src="main.js"></script>
+        
+        <style>
+            span{
+                display: inline-block;
+                width:300px;
+                overflow:auto;
+            }
+        </style>
+        
+    </head>
+    <body onload="betoltP()" style="margin: 10px 0 10px 25px">
+        <h3 style="margin: 10px">Partnerek kezelése</h3>
+        
+        <div id="partner01"></div>
+        <div id="url01"></div>
+        <div id="icon01"></div>
+        
+        <div id="partner02"></div>
+        <div id="url02"></div>
+        <div id="icon02"></div>
+        
+        <div id="partner03"></div>
+        <div id="url03"></div>
+        <div id="icon03"></div>
+        
+        <a href="">Új termék hozzáadása</a><br>
+            <input type="text" placeholder="partnerek neve">
+            <input type="text" placeholder="partnerek url">
+            <button type="button">hozzáad</button>
+            <br>
+        <a href="">termék törlése</a><br>
+            <input type="text" placeholder="partnerek id">
+            <button type="button">töröl</button>
+            <br>
+        <a href="">termék módosítása</a><br>
+            <input type="text" placeholder="partnerek id">
+            <input type="text" placeholder="partnerek neve">
+            <input type="text" placeholder="partnerek url">
+            <button type="button">módosít</button>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hárs méz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <!-- BOOTSTRAP 4 -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        
+        <!-- SCRIPT -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+        
+        <script src="main.js"></script>
+        
+        <style>
+            span{
+                display: inline-block;
+                width:300px;
+                overflow:auto;
+            }
+        </style>
+        
+    </head>
+    <body onload="betoltH()" style="margin: 10px 0 10px 25px">
+        <h3 style="margin: 10px">Hárs méz</h3>
+        
+        <div id="harsmez" style="margin: 5px 20px; padding: 10px;"></div>
+        
+        <a href="">Új termék hozzáadása</a><br>
+            <input type="text" placeholder="termék neve">
+            <input type="text" placeholder="termék ára">
+            <button type="button">hozzáad</button>
+            <br>
+        <a href="">termék törlése</a><br>
+            <input type="text" placeholder="termék id">
+            <button type="button">töröl</button>
+            <br>
+        <a href="">termék módosítása</a><br>
+            <input type="text" placeholder="termék id">
+            <input type="text" placeholder="termék neve">
+            <input type="text" placeholder="termék ára">
+            <button type="button">módosít</button>
+    </body>
+</html>
